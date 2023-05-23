@@ -65,7 +65,7 @@ function loop() {
     });
 }
 function maxCellsNumber() {
-    document.querySelector('.maxCells').innerHTML = snake.maxCells
+    document.querySelector('.maxCells').innerHTML = snake.maxCells - 4
     setTimeout(maxCellsNumber, 100)
 }
 maxCellsNumber()

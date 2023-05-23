@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     margin: 0;
+    color: white;
 }
 body{
     background: black;
@@ -11,4 +12,27 @@ body{
 }
 canvas {
     border: 1px solid white;
+}
+.flexHeader {
+    display: flex;
+    flex-direction: column;
+}
+.flexHeader h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    line-height: 140%;
+    letter-spacing: 3px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+}
+.headSnake {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.maxCells {
+    font-size: 20px;
+    border: 1px solid green;
+    padding: 1px 7px;
 }

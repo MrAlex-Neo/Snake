@@ -64,6 +64,11 @@ function loop() {
         }
     });
 }
+function maxCellsNumber() {
+    document.querySelector('.maxCells').innerHTML = snake.maxCells
+    setTimeout(maxCellsNumber, 100)
+}
+maxCellsNumber()
 document.addEventListener('keydown', function(e) {
     if (e.which === 37 && snake.dx === 0) {
         snake.dx = -grid;
